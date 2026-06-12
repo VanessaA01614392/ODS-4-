@@ -31,4 +31,4 @@ b0 = LR.intercept_
 # Especificamos datos por población
 
 impacto = b0 + prep_alumno*b1[0]
-  st.metric("Impacto Proyectado ODS 4", f"+{float(impacto):.3f}%")
+st.metric("Impacto Proyectado ODS 4", f"+{float(impacto):.3f}%")
