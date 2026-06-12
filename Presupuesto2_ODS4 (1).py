@@ -14,7 +14,7 @@ st.sidebar.header("Presupuesto")
 # Límite inferior: 20000000000
 # Límite superior: 64000000000
 # Valor inicial: 40000000000
-presupuesto = st.sidebar.slider("Presupuesto", 10000000, 45000000, 20000000)
+presupuesto = st.sidebar.slider("Presupuesto", 10000000000, 45000000000, 20000000000)
 st.sidebar.header("Porcentaje de Becas")
 porcentaje_becas = st.sidebar.slider("Porcentaje de Becas", 0.2, 1.0, 0.5)
 st.sidebar.header("Porcentaje de Infraestructura")
