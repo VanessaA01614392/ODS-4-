@@ -17,7 +17,7 @@ st.sidebar.header("Presupuesto")
 presupuesto = st.sidebar.slider("Presupuesto", 700, 2000, 1500)
 
 # Cargamos el archivo con los datos (.csv)
-datos = pd.read_csv('India_ODS4.csv', encoding='latin-1')
+datos = pd.read_csv('India_ODS4 (1).csv', encoding='latin-1')
 # Seleccionamos las variables
 X = pd.DataFrame(datos, columns=['Upper secondary_x'])
 y = datos['Upper secondary_y']
