@@ -54,12 +54,12 @@ impacto = b0 + prep_alumno*b1[0] + presupuesto_infra/100000000*0.15 + presupuest
 st.metric("Impacto Proyectado ODS 4", f"+{float(impacto):.3f}%")
 # Presentamos el tipo de filosofía
 if porcentaje_becas >= 0.40:
-filosofia = "Bienestar Primero (Equidad y Movilidad Social)"
+  filosofia = "Bienestar Primero (Equidad y Movilidad Social)"
 elif porcentaje_infra >= 0.45:
-filosofia = "Rendimiento Estructural (Desarrollo Sostenible)"
+  filosofia = "Rendimiento Estructural (Desarrollo Sostenible)"
 elif porcentaje_docentes >= 0.35:
-filosofia = "Efecto Multiplicador (Excelencia Académica)"
+  filosofia = "Efecto Multiplicador (Excelencia Académica)"
 else:
-filosofia = "Gobernanza Equilibrada (Modelo Balanceado)"
+  filosofia = "Gobernanza Equilibrada (Modelo Balanceado)"
 st.subheader("Clasificación Estratégica del Modelo")
 st.info(f"Su propuesta óptima califica como un enfoque de: **{filosofia}**")
